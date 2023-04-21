@@ -11,4 +11,5 @@ Credit risk is a part of financial risk and its assessment is the most important
 	Finally, both performance metrics of three neural networks and weights of FAHP, are inputs in a selection model using Technique for Order of Preference by Similarity to Ideal Solution (TOPSIS). As the output of the above descripted process is the selection of the most robust model base on expert view for credit risk assessment.
 
 
+
 ![image](https://user-images.githubusercontent.com/65331575/233630334-a6b85aee-5f21-4e51-809c-4f94c83f3a3a.png)
