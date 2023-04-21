@@ -4,12 +4,11 @@ Credit risk is a part of financial risk and its assessment is the most important
 
 ### Methodology
 
-The first phase represents an initial approach of creation three artificial neural networks with different topologies (1, 2 and 3 Layers). Specifically, for a start, dataset should be cleaned and prepared for algorithms application. As duplicate rows and columns as constant and quasi constant variables are removed, missing values and outliers are detected and handled, target variable transformed to has a balance quantity and categorical variables are encoded. 
+	The first phase represents an initial approach of creation three artificial neural networks with different topologies (1, 2 and 3 Layers). Specifically, for a start, dataset should be cleaned and prepared for algorithms application. As duplicate rows and columns as constant and quasi constant variables are removed, missing values and outliers are detected and handled, target variable transformed to has a balance quantity and categorical variables are encoded. In the second stage, for each of three models, four tuning techniques are applied and model which dominates in more evaluation metrics is chosen as the best. In the end, the output of this phase and input for the next one is a table with models’ performance metrics for three neural networks models.
 
-In the second stage, for each of three models, four tuning techniques are applied and model which dominates in more evaluation metrics is chosen as the best. In the end, the output of this phase and input for the next one is a table with models’ performance metrics for three neural networks models.
+	In the second phase is introduced human aspect through expert’s knowledge. A Fuzzy Analytic Hierarchy Process (FAHP) Is applied and takes into account preferences of four different experts with diverse ranking significance of evaluation metrics for model selection. As a result, normalized non-fuzzy scores of each metric are produced and it would be used as inputs in the next phase.  
 
-In the second phase is introduced human aspect through expert’s knowledge. A Fuzzy Analytic Hierarchy Process (FAHP) Is applied and takes into account preferences of four different experts with diverse ranking significance of evaluation metrics for model selection. As a result, normalized non-fuzzy scores of each metric are produced and it would be used as inputs in the next phase.  
+	Finally, both performance metrics of three neural networks and weights of FAHP, are inputs in a selection model using Technique for Order of Preference by Similarity to Ideal Solution (TOPSIS). As the output of the above descripted process is the selection of the most robust model base on expert view for credit risk assessment.
 
-Finally, both performance metrics of three neural networks and weights of FAHP, are inputs in a selection model using Technique for Order of Preference by Similarity to Ideal Solution (TOPSIS). As the output of the above descripted process is the selection of the most robust model base on expert view for credit risk assessment.
 
-![image](https://user-images.githubusercontent.com/65331575/233629772-7f7437f5-b4b2-4443-a5ee-d06992be31b6.png)
+![image](https://user-images.githubusercontent.com/65331575/233630334-a6b85aee-5f21-4e51-809c-4f94c83f3a3a.png)
